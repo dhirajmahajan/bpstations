@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Station Name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!-- Address -->
+    <TextView
+        android:id="@+id/tvAddress"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" />
+
+    <!-- Distance -->
+    <TextView
+        android:id="@+id/tvDistance"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bpgreen"
+        android:layout_marginVertical="8dp" />
+
+    <!-- Distance -->
+    <TextView
+        android:id="@+id/tvfacilityHeading"
+        android:textSize="16sp"
+        android:text="Facilities"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <!-- Facilities -->
+    <LinearLayout
+        android:id="@+id/facilitiesLayout"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerPadding="2dp" />
+</LinearLayout>

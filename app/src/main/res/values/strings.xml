@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BPStations</string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    <string name="station_image">Station Image</string>
+    <string name="filter">Filter</string>
+    <string name="my_bp_stations">My BP Stations</string>
+</resources>
